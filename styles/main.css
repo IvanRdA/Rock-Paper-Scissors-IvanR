@@ -1,0 +1,41 @@
+/*Reseting global styles and assigning a background and a global font-family*/
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(#64B5F6, #90CAF9);
+    width: 100vw;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Clases for hiding and showing the picture of the options choosed*/
+.invisible {
+    display: none;
+}
+.visible {
+    display: block;
+}
+
+/*Centering the images on their divs*/
+#player-box, #cpu-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Some basic styling*/
+button{
+    padding: 5px;
+    margin: 10px;
+}
+h3{
+    font-size: 30px;
+}
+h1{
+    font-size: 48px;
+    margin-top: 2px;
+}
