@@ -2,7 +2,7 @@
 HTML5, CSS3 and JavaScript (vanilla)
 
 - PROJECT DESCRIPTION -
-This is a mini app developed with basic HTML, CSS and JavaScript. It allows the user to play a Rock, scissors, paper game.
+This is a mini app developed with basic HTML, CSS and JavaScript. It allows the user to play a Rock, paper, scissors game.
 
 The app contains 3 buttons that triggers the main JavaScript function. Those starts a game from the option choosed by the user. With the math.random() method I calculate the
 CPU option and then with some if...else logic the result of the game is calculated in base of the user and the CPU options choosed.
